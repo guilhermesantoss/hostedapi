@@ -1,0 +1,22 @@
+{
+  "name": "hostedapi",
+  "version": "1.0.0",
+  "description": "API feita em nodejs hospedada no Heroku",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "14.15.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
